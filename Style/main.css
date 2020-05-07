@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   font-family: Montserrat;
+  scroll-behavior: smooth;
 }
 
 .logo {
@@ -125,7 +126,7 @@ nav {
 /* Services Section  */
 .service_sec{
   background-color:#fff;
-  padding:100px 60px;
+  padding:150px 60px 100px 60px;
   text-align: center;
   color: #444;
 }
@@ -155,16 +156,16 @@ nav {
     margin:20px;
   }
   .service_sec{
-    padding:50px 30px;
+    padding:100px 30px 50px 30px;
   }
 }
 /* work section */
 .work_sec{
   background-color:#74b9ff;
-  padding: 100px 60px 50px 60px;
+  padding: 150px 60px 60px 60px;
   color: #444;
   text-align:center;
-border-radius:50px;
+border-radius:20px;
 }
 .work_iteams{
   display: inline-block;
@@ -236,15 +237,13 @@ margin-bottom:50px;
   }
   .under_nav{
     display: block;
-    padding: 200px 60px;
     text-align: center;
+    padding: 50px 30px;
   }
-}
-@media screen and (max-width:390px){
-  .under_nav{
-    display: block;
-    padding: 200px 30px;
-    text-align: center;
+  .carousel{
+    height:400px;
+    background:linear-gradient(to right ,#2193b0,#06beb6);
+    color: #444;
   }
 }
 /* client_fdbck */
