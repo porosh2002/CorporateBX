@@ -201,10 +201,6 @@ nav ul {
     padding:0px;
     text-align:center;
   }
-  .srvc_title,
-  .wrk_title{
-    font-size:30px;
-  }
 }
 @media screen and (min-width:600px) {
   .service_sec{
@@ -215,7 +211,7 @@ nav ul {
 }
 /* service section */
 .srvc_title{
-  font-size:40px;
+  font-size:30px;
   letter-spacing:2px;
   color: #444;
   margin:100px 0px 50px 0px;
@@ -224,13 +220,11 @@ nav ul {
 .iteam{
   display: inline-block;
   margin: 20px;
-  height:250px;
-  width:250px;
 }
 .fab,.far,.fas{
 font-size:55px;
 color: #444;
-margin:60px 0px 20px 0px;
+margin-bottom:20px;
 }
 .itm_title{
   color:#444;
@@ -243,7 +237,7 @@ margin:60px 0px 20px 0px;
   border-top-left-radius:100px;
 }
 .wrk_title{
-  font-size:40px;
+  font-size:30px;
   letter-spacing:2px;
   color:#444;
   font-weight:600;
