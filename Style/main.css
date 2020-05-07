@@ -230,3 +230,20 @@ margin-bottom:50px;
 .u_ns_btn_2{
  margin-left:30px;
 }
+@media screen and (max-width:950px){
+  .under_nav_img{
+   display: none;
+  }
+  .under_nav{
+    display: block;
+    padding: 200px 60px;
+    text-align: center;
+  }
+}
+@media screen and (max-width:390px){
+  .under_nav{
+    display: block;
+    padding: 200px 30px;
+    text-align: center;
+  }
+}
