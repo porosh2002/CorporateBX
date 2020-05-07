@@ -18,6 +18,9 @@ ul li {
   list-style-type: none;
 }
 
+/* ____________________________________________________________________ */
+
+/* Navigation Section */
 .nav_sec {
   height: 70px;
   background-color: #fff;
@@ -27,29 +30,25 @@ ul li {
   top: 0;
   z-index: 1;
 }
-
 .logo_bars {
   margin: auto 60px;
 }
 
 nav {
   width: 500px;
-  margin: auto 80px auto 0px;
+  margin: auto 120px auto 0px;
 }
-
 nav ul {
   display: flex;
   justify-content: space-between;
   margin: auto 0px;
 }
-
 .navLinks {
   color: #29303b;
   font-size: 17px;
   font-family: sans-serif;
   letter-spacing: 1px;
 }
-
 .navLinks:hover {
   color: #29303b94;
   text-decoration: none;
@@ -72,13 +71,11 @@ nav ul {
     display: flex;
     justify-content: space-between;
   }
-
-  .bars {
+.bars {
     margin: auto 0px;
     cursor: pointer;
   }
-
-  nav {
+nav {
     width: 100%;
     background-color: #444;
     padding: 60px 0px;
@@ -120,143 +117,75 @@ nav ul {
     width: 25px;
     transition: 0.3s;
   }
-}
-
-.under_nav {
-  width: 100%;
-  background: url("../Image/892.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-@media screen and (min-width: 921px) {
-  .under_nav_img {
-    margin-top: 300px;
-    margin-right: 150px;
-    position: absolute;
-    right: 0;
-    z-index: 0;
-  }
-
-  .under_nav {
-    height: 600px;
-    display: flex;
-  }
-
-  .udr_nv_usr {
-    width: 500px;
-    margin: 200px 60px 0px 60px;
-  }
-}
-
-.u_ns_t {
-  font-size: 30px;
-  color: #444;
-}
-
-.u_ns_des {
-  font-size: 17px;
-  color: #444;
-  margin-bottom: 30px;
-}
-
-.u_ns_btn {
-  padding: 12px;
-  background-color: #444;
-  color: #fff;
-  border-radius: 5px;
-}
-
-.u_ns_btn_2 {
-  margin-left: 30px;
-}
-
-.u_ns_btn:hover {
-  color: #d2d2d2;
-  text-decoration: none;
-}
-
-@media screen and (max-width: 920px) {
-  .udr_nv_usr {
-    width: 100vw;
-    height: auto;
-    padding: 100px 30px;
-    text-align: center;
-  }
-
-  .under_nav_img {
-    display: none;
-  }
-
-  .under_nav {
-    height: 400px;
-  }
-}
-@media screen and (max-width:600px) {
   .logo_bars {
     margin: auto 30px;
   }
-  .service_sec{
-    background-color: #fff;
-    padding:0px;
-    text-align:center;
-  }
 }
-@media screen and (min-width:600px) {
-  .service_sec{
-    background-color: #fff;
-    padding:70px 30px  30px 30px;
-    text-align:center;
-  }
-}
-/* service section */
-.srvc_title{
-  font-size:30px;
-  letter-spacing:2px;
+/* __________________________________________________________________________ */
+/* Services Section  */
+.service_sec{
+  background-color:#fff;
+  padding:100px 60px;
+  text-align: center;
   color: #444;
-  margin:100px 0px 50px 0px;
-  font-weight: 600;
+}
+.srvc_title,
+.wrk_title{
+  font-size:30px;
+  letter-spacing: 2px;
+  font-weight:600;
+  margin-bottom:50px;
 }
 .iteam{
-  display: inline-block;
-  margin: 20px;
+  display:inline-block;
+  padding:20px;
+  margin: 30px 20px;
+  
 }
-.fab,.far,.fas{
-font-size:55px;
-color: #444;
-margin-bottom:20px;
+.fas,.fab,.far{
+  font-size:35px;
+  margin-bottom:20px;
 }
 .itm_title{
-  color:#444;
-  font-size:20px;
+  font-size:22px;
+}
+@media screen and (max-width:540px){
+  .iteam{
+    padding:20px;
+    margin:20px;
+  }
+  .service_sec{
+    padding:50px 30px;
+  }
 }
 /* work section */
 .work_sec{
   background-color:#74b9ff;
-  text-align: center;
-  border-top-left-radius:100px;
-}
-.wrk_title{
-  font-size:30px;
-  letter-spacing:2px;
-  color:#444;
-  font-weight:600;
-  padding-top:40px;
-}
-.work_content{
-  padding:60px 0px;
+  padding: 100px 60px 50px 60px;
+  color: #444;
+  text-align:center;
+border-radius:50px;
 }
 .work_iteams{
   display: inline-block;
-  height:300px;
-  width:300px;
   margin:20px;
-  transition: .5s;
-}
-.work_iteams:hover{
-transform: scale(1.1);
-transition: .5s;
 }
 .work_iteams img{
-  border-radius:5px;
+border-radius:10px;
+transition:.5s;
+}
+.work_iteams img:hover{
+transform: scale(1.1);
+transition:.5s;
+}
+@media screen and (max-width:480px){
+  .work_sec{
+    padding:20px;
+  }
+  .wrk_title{
+    margin-top:50px;
+  }
+  .work_iteams{
+    margin:20px 0px;
+  }
 }
