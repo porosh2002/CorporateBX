@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat
+}
+
+body {
+    background: url('../Image/signup_bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:auto;
+}
+
+.sign_up_div {
+    width: 350px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 40px;
+    background-color: #444444ec;
+    border-radius: 5px
+}
+
+.sign_up_div h1 {
+    letter-spacing: 2px;
+    color: #fff;
+    margin: 20px 0 50px 0
+}
+
+.email_inpt,
+.nme_inpt,
+.pass_inpt {
+    height: 40px;
+    width: 300px;
+    margin-bottom: 15px;
+    text-align: center;
+    border: 1px solid #9acd32;
+    background-color: transparent;
+    font-size: 16px;
+    border-radius: 5px;
+    color: #ffff
+}
+
+::placeholder {
+    color: #fff;
+    opacity: .6
+}
+
+.btn {
+    color: #fff;
+    padding: 7px 20px;
+    background-color: #29303ba2;
+    border: 1.5px solid #7afb5a;
+    letter-spacing: 1px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 3px
+}
+
+.btn:hover {
+    border: 1.5px solid #fff
+}
+
+.links_a {
+    margin-top: 40px
+}
+
+.links_a a {
+    text-decoration: none;
+    color: #d2d2d2;
+    font-size: 14px
+}
+
+.links_a a:hover {
+    color: #fff
+}
+
+@media screen and (max-width:460px) {
+    .sign_up_div {
+        width: 300px
+    }
+}
+
+@media screen and (max-width:390px) {
+    .sign_up_div {
+        width: 250px
+    }
+
+    .email_inpt,
+    .nme_inpt,
+    .pass_inpt {
+        width: 250px
+    }
+}
+
+@media screen and (max-width:350px) {
+    .sign_up_div {
+        width: 215px
+    }
+
+    .email_inpt,
+    .nme_inpt,
+    .pass_inpt {
+        width: 215px
+    }
+}
+.logo{
+    height:60px;
+    width:60px;
+    background-color: aliceblue;
+    padding:10px;
+    border-radius:10px;
+}
