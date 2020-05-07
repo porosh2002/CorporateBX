@@ -247,3 +247,15 @@ margin-bottom:50px;
     text-align: center;
   }
 }
+/* client_fdbck */
+.client_fdbck{
+  background-color: #fff;
+  padding: 100px 60px 50px 60px;
+  color: #444;
+  text-align: center;
+}
+.cf_title{
+  font-size: 30px;
+  letter-spacing:2px;
+  font-weight: 600;
+  }
