@@ -140,7 +140,7 @@ nav {
 .iteam{
   display:inline-block;
   padding:20px;
-  margin: 30px 20px;
+  margin: 50px;
   
 }
 .fas,.fab,.far{
@@ -168,7 +168,7 @@ nav {
 }
 .work_iteams{
   display: inline-block;
-  margin:20px;
+  margin: 50px;
 }
 .work_iteams img{
 border-radius:10px;
@@ -253,9 +253,11 @@ margin-bottom:50px;
   text-align: center;
 }
 .cf_title{
+  background-color:#74b9ff;
   font-size: 30px;
   letter-spacing:2px;
   font-weight: 600;
+
   }
   .avatar{
     height:90px;
@@ -267,9 +269,10 @@ margin-bottom:50px;
   }
   .cf_des{
     color: #444;
-    font-size:14px;
+    font-size:16px;
     letter-spacing:1px;
     margin:50px 0px;
+    padding:0px 20px;
   }
   .cf_nm{
     color: #444;
@@ -277,4 +280,14 @@ margin-bottom:50px;
     letter-spacing:2px;
     margin:50px 0px;
     font-weight:600;
+  }
+  /* customers */
+  .cstmr_mn{
+    text-align: center;
+    padding:70px 0px;
+  }
+  .cstmr_cmpny{
+    height:70px;
+    width:70px;
+    opacity: .7;
   }

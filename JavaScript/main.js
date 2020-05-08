@@ -27,3 +27,21 @@ $('.navLinks').click(function(){
       e.classList.remove('nav_shadow')
     }
   });
+  new Glide('.glide',{
+    type: 'carousel',
+    startAt: 0,
+    perView: 4,
+    autoplay:3000,
+    breakpoints: {
+      800: {
+        perView: 3
+      },
+      600:{
+        perView:2
+      }, 
+       400:{
+        perView:1
+      }
+    }
+    
+  }).mount()

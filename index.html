@@ -28,6 +28,8 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./Style/glide.core.min.css">
+    <link rel="stylesheet" href="./Style/glide.theme.min.css">
   </head>
 
   <body>
@@ -151,55 +153,104 @@
 
 
 
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-      <ol class="carousel-indicators">
-        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-      </ol>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-             <div class="client_fdbck">
-      <p class="cf_title">What Our Clients Say</p>
-      <div class="cf_cntnt">
-        <img class="avatar" src="./Image/avatar.png" alt="avatar">
-        <p class="cf_des">e labore est corrupti at enim necessitatibus ullam, assumenda suscipit iste</p>
-        <p class="cf_nm">PAT ,WC</p>
+
+
+
+
+
+
+
+
+    <div class="glide cstmr_mn">
+      <div class="glide__track" data-glide-el="track">
+        <ul class="glide__slides">
+          <li class="glide__slide">
+            <img class="cstmr_cmpny" src="./Image/social-media (1).png" alt="twitter">
+          </li>
+          <li class="glide__slide">
+            <img class="cstmr_cmpny" src="./Image/social-media.png" alt="Instagram">
+          </li>
+          <li class="glide__slide">
+            <img class="cstmr_cmpny" src="./Image/circular.png" alt="Facebook">
+          </li>
+          <li class="glide__slide">
+            <img class="cstmr_cmpny" src="./Image/vk.png" alt="VK">
+          </li>
+          <li class="glide__slide">
+            <img class="cstmr_cmpny" src="./Image/line.png" alt="Line">
+          </li>
+        </ul>
       </div>
     </div>
+
+
+
+
+
+    <!-- <div class="cstmr_mn">
+  <div class="customers">
+    <img class="cstmr_cmpny" src="./Image/social-media (1).png" alt="twitter">
+  </div>
+  <div class="customers">
+    <img class="cstmr_cmpny" src="./Image/social-media.png" alt="Instagram">
+  </div>
+  <div class="customers">
+    <img class="cstmr_cmpny" src="./Image/vk.png" alt="VK">
+  </div>
+  <div class="customers">
+    <img class="cstmr_cmpny" src="./Image/line.png" alt="twitter">
+  </div>
+  <div class="customers">
+    <img class="cstmr_cmpny" src="./Image/circular.png" alt="twitter">
+  </div>
+</div> -->
+
+
+
+
+    <div class="client_fdbck"><p class="cf_title">What Our Clients Say</p>
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+        <div class="cf_cntnt">
+          <img class="avatar" src="./Image/avatar.png" alt="avatar">
+          <p class="cf_des">e labore est corrupti at enim necessitatibus ullam, assumenda suscipit iste</p>
+          <p class="cf_nm">PAT ,WC</p>
         </div>
-        <div class="carousel-item">
-             <div class="client_fdbck">
-      <p class="cf_title">What Our Clients Say</p>
-      <div class="cf_cntnt">
-        <img class="avatar" src="./Image/avatar_2.png" alt="avatar">
-        <p class="cf_des">ha de ejjjhf  dsd corrupti at enim necessitatibus ullam, assumenda suscipit iste</p>
-        <p class="cf_nm">Harry ,CEO NHX</p>
-      </div>
-    </div>
+          </div>
+          <div class="carousel-item">
+        <div class="cf_cntnt">
+          <img class="avatar" src="./Image/avatar_2.png" alt="avatar">
+          <p class="cf_des">ha de ejjjhf  dsd corrupti at enim necessitatibus ullam, assumenda suscipit iste</p>
+          <p class="cf_nm">Harry ,CEO NHX</p>
         </div>
-        <div class="carousel-item">
-             <div class="client_fdbck">
-      <p class="cf_title">What Our Clients Say</p>
-      <div class="cf_cntnt">
-        <img class="avatar" src="./Image/avatar_3.png" alt="avatar">
-        <p class="cf_des">Lorem ipsum dolor sit Amet ad sint provident, eius exercitationem porro modi odio nobis quae </p>
-        <p class="cf_nm">Mark,Businessman</p>
-      </div>
-    </div>
+          </div>
+          <div class="carousel-item">
+        <div class="cf_cntnt">
+          <img class="avatar" src="./Image/avatar_3.png" alt="avatar">
+          <p class="cf_des">Lorem ipsum dolor sit Amet ad sint provident, eius exercitationem porro modi odio nobis quae </p>
+          <p class="cf_nm">Mark,Businessman</p>
         </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
       </div>
-      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
     </div>
 
 
+    
 
 
 
@@ -216,14 +267,9 @@
 
 
 
-    <!-- <div class="client_fdbck">
-      <p class="cf_title">What Our Clients Say</p>
-      <div class="cf_cntnt">
-        <img class="avatar" src="./Image/avatar.png" alt="avatar">
-        <p class="cf_des">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet ad sint provident, eius exercitationem porro modi odio nobis quae similique labore est corrupti at enim necessitatibus ullam, assumenda suscipit iste</p>
-        <p class="cf_nm">MD Jamil Kashem Porosh ,Founder & CEO Wecubs.com</p>
-      </div>
-    </div> -->
+
+
+
     <div class="footer">© 2018- <span class="footer_span"></span> BX</div>
     <script
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
@@ -244,6 +290,7 @@
       integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
       crossorigin="anonymous"
     ></script>
+    <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
     <script src="./JavaScript/main.js"></script>
   </body>
 </html>
