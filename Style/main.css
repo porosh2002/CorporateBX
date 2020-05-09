@@ -190,12 +190,32 @@ transition:.5s;
   }
 }
 /* carousel */
-.crsl{
+.crsl_1{
   height:600px;
   background: url('../Image/892.jpg');
   background-size: cover;
   background-position: center;
+  animation:fadeIn;
+animation-duration:3s;
+color: #444;
+}
+.crsl_2{
+  height:600px;
+  background: url('../Image/893.jpg');
+  background-size: cover;
+  background-position: center;
   color: #444;
+  animation:fadeIn;
+  animation-duration:3s;
+}
+.crsl_3{
+  height:600px;
+  background: url('../Image/894.jpg');
+  background-size: cover;
+  background-position: center;
+  color: #444;
+  animation:fadeIn;
+  animation-duration:3s;
 }
 .under_nav{
   display: flex;
@@ -204,31 +224,41 @@ transition:.5s;
 }
 .under_nav_img{
   margin-top:100px;
+  animation:bounceInRight;
+animation-duration:6s;
 }
 .u_ns_t{
 font-size: 30px;
 letter-spacing:2px;
+animation:bounceInRight;
+animation-duration:4s;
 }
 .u_ns_des{
 font-size:17px;
 letter-spacing:1px;
 margin-bottom:50px;
+animation:bounceInRight;
+animation-duration:5s;
 }
 .u_ns_btn{
   background-color: #444;
   color: #fff;
-  transition: .5s ease;
   padding:12px;
  border-radius:5px;
+}
+.btn_div{
+  animation:bounceInRight;
+  animation-duration:4s;
 }
 .u_ns_btn:hover{
   background-color:#74b9ff;
   text-decoration: none;
   color: #444;
-  transition: .5s ease;
 }
 .u_ns_btn_2{
  margin-left:30px;
+ animation:bounceInRight;
+ animation-duration:3s;
 }
 @media screen and (max-width:950px){
   .under_nav_img{
@@ -239,11 +269,14 @@ margin-bottom:50px;
     text-align: center;
     padding: 50px 30px;
   }
-  .crsl{
-    height:400px;
+  .crsl_1,.crsl_2,.crsl_3{
+    height:370px;
     background:linear-gradient(to right ,#2193b0,#06beb6);
     color: #444;
   }
+  .srvc_title{
+  margin:50px 0px 0px 0px ;
+}
 }
 /* client_fdbck */
 .client_fdbck{
