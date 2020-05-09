@@ -179,6 +179,11 @@ color: #2193b0;
   height:200px;
   width:200px;
   border-radius:5px;
+  transition:1s;
+}
+.work_iteams a img:hover{
+  transform: scale(1.1);
+  transition:1s;
 }
 
 /* carousel */
@@ -368,4 +373,57 @@ margin-bottom:30px;
   margin:15px;
   padding:0px;
 }
+}
+/* btm_cl_t_ac */
+.btm_cl_t_ac{
+  height:500px;
+  background: url('../Image/start.jpg') center ;
+  background-size: cover;
+background-repeat: no-repeat;
+background-attachment:fixed;
+}
+.btm_cl_t_ac_2{
+  height:100%;
+background: linear-gradient(to right , #4444,#8888);
+text-align: center;
+}
+.btm_cl_t_ac_t{
+  color:#fff;
+  font-size: 30px;
+  font-weight: 600;
+  padding:150px 20px 30px 20px;
+  letter-spacing:2px;
+}
+.btm_cl_t_ac_des{
+  color:#d2d2d2;
+  font-size:17px;
+  padding:0px 20px 50px 20px;
+  letter-spacing:1px;
+}
+.btn_btm{
+  background-color: yellow;
+  color: #444;
+  font-size:17px;
+  padding:10px 15px;
+  border-radius:5px;
+  font-weight:600;
+  letter-spacing: 1px;
+}
+.btn_btm:hover{
+text-decoration: none;
+background-color: #74b9ff;
+color: #444;
+}
+@media screen and (max-width:800px){
+  .btm_cl_t_ac{
+    background:none;
+  }
+  .btm_cl_t_ac_2{
+    background: none;
+ background-color: #fff;
+  }
+  .btm_cl_t_ac_t,
+  .btm_cl_t_ac_des{
+    color:#444;
+  }
 }
