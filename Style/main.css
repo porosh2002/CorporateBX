@@ -135,7 +135,6 @@ nav {
   font-size:30px;
   letter-spacing: 2px;
   font-weight:600;
-  margin-bottom:50px;
 }
 .iteam{
   display:inline-block;
@@ -151,10 +150,6 @@ nav {
   font-size:22px;
 }
 @media screen and (max-width:540px){
-  .iteam{
-    padding:20px;
-    margin:20px;
-  }
   .service_sec{
     padding:40px 30px;
   }
@@ -275,7 +270,7 @@ animation-duration:5s;
     color: #444;
   }
   .srvc_title{
-  margin:50px 0px 0px 0px ;
+  margin:50px 0px 50px 0px ;
 }
 }
 /* client_fdbck */
@@ -324,3 +319,56 @@ animation-duration:5s;
     width:70px;
     opacity: .7;
   }
+  /* meet_team_section */
+  .meet_team_section{
+    padding:100px 30px 30px 30px;
+    background-color: #fff;
+    text-align:center;
+    color: #444;
+  }
+  .mt_t{
+    font-size:30px;
+letter-spacing:2px;
+margin-bottom:50px;
+font-weight: 600;
+  }
+.m_t_crd{
+  display:inline-block;
+  height:270px;
+  width:270px;
+  margin:30px 70px;
+  padding:30px;
+}
+.mt_title{
+  font-size:22px;
+  font-weight: 600;
+  letter-spacing:1px;
+}
+.mt_des{
+  font-size:16px;
+}
+.fa-road,
+.fa-video,
+.fa-tint{
+  color:#2193b0;
+}
+.fa-road:hover,
+.fa-video:hover,
+.fa-tint:hover{
+  color:#444;
+}
+@media screen and (max-width:440px){
+  .meet_team_section{
+    padding:70px 30px 30px 30px;
+  }
+  .mt_t{
+margin-bottom:30px;
+  }
+.m_t_crd{
+  display:inline-block;
+  height:270px;
+  width:270px;
+  margin:15px;
+  padding:15px;
+}
+}
