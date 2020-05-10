@@ -401,7 +401,7 @@ text-align: center;
   letter-spacing:1px;
 }
 .btn_btm{
-  background-color: yellow;
+  background-color:#74b9ff;
   color: #444;
   font-size:17px;
   padding:10px 15px;
@@ -411,7 +411,7 @@ text-align: center;
 }
 .btn_btm:hover{
 text-decoration: none;
-background-color: #74b9ff;
+background-color: #ffff;
 color: #444;
 }
 @media screen and (max-width:800px){
