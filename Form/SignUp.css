@@ -3,14 +3,6 @@
     padding: 0;
     font-family: Montserrat
 }
-
-body {
-    background: url('../Image/signup_bg.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size:auto;
-}
-
 .sign_up_div {
     width: 350px;
     position: absolute;
@@ -19,7 +11,7 @@ body {
     transform: translate(-50%, -50%);
     text-align: center;
     padding: 40px;
-    background-color: #444444ec;
+    background-color: #39404b4d;
     border-radius: 5px
 }
 
@@ -58,7 +50,10 @@ body {
     cursor: pointer;
     border-radius: 3px
 }
-
+#particles-js{
+    height:100vh;
+    background:#262626 ;
+  }
 .btn:hover {
     border: 1.5px solid #fff
 }
