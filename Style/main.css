@@ -29,7 +29,7 @@ ul li {
   justify-content: space-between;
   position: sticky;
   top: 0;
-  z-index: 1;
+  z-index:1;
 }
 .logo_bars {
   margin: auto 60px;
@@ -281,6 +281,10 @@ animation-duration:5s;
   padding: 100px 60px 50px 60px;
   color: #444;
   text-align: center;
+  
+}
+#carouselExampleIndicators{
+  z-index:0;
 }
 .cf_title{
   background-color:#74b9ff;

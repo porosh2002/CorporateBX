@@ -10,17 +10,14 @@
     padding:10px;
     border-radius:10px;
 }
-body {
-  height: 100vh;
-  background: url('../Image/log_bg.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: right;
+#particles-js{
+  height:100vh;
+  background:#262626 ;
 }
 .form_div {
   text-align: center;
   width: 300px;
-  background-color: #39404ba8;
+  background-color: #39404b4d;
   padding: 50px;
   border-radius: 7px;
   position: absolute;
@@ -51,7 +48,6 @@ body {
   cursor: pointer;
   margin-top: 20px;
   background-color: #a7e9af;
-  border: 2px solid transparent;
   color: #29303b;
   font-size: 17px;
   letter-spacing: 1px;
