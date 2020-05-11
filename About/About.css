@@ -3,24 +3,33 @@
   padding: 0;
   font-family: Montserrat;
 }
+body{
+  text-align: center;
+  background: linear-gradient(to right,#06beb6 , #48b1bf);
+}
+.logo{
+  height:70px;
+  padding:10px;
+  background-color: #fff;
+  border-radius:5px;
+}
 .bth_div,
 .logo_div {
-  text-align: center;
   margin: 60px 0;
 }
 .about_txt {
-  text-align: center;
-  font-size: 22px;
+  
+  font-size: 16px;
   letter-spacing: 1px;
   color: #39303b;
   margin: 5px 15px 10px 15px;
 }
 .bctohm {
   text-decoration: none;
-  font-size: 18px;
+  font-size: 16px;
   letter-spacing: 1px;
   padding: 12px;
-  border: 1px solid #39303b;
+  background-color:#fff;
   color: #39303b;
   border-radius: 5px;
 }
@@ -29,8 +38,7 @@
   background-color: #39303b;
 }
 .title {
-  font-size: 40px;
-  text-align: center;
+  font-size:30px;
   color: #39303b;
   letter-spacing: 2px;
   text-transform: uppercase;

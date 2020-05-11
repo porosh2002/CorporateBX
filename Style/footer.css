@@ -33,6 +33,7 @@
 .ftr_link{
 color: #d2d2d2;
 font-size: 14px;
+text-decoration: none;
 }
 .ftr_lg_abt:hover,
 .ftr_link:hover{
