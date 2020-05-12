@@ -28,6 +28,16 @@
   text-align: center;
   font-size:16px;
 }
+@media screen and (max-width:720px){
+  .src_inpt{
+    width:400px;
+  }
+}
+@media screen and (max-width:500px){
+  .src_inpt{
+    width:250px;
+  }
+}
 .src_btn{
   height:35px;
   padding:0px 20px;
@@ -48,4 +58,80 @@
   font-size:27px;
   text-align: center;
   letter-spacing:2px;
+}
+/* lst_img */
+.lst_img{
+  height:700px;
+  background-color: #fff;
+}
+.lst_img_title{
+  text-align: center;
+  position: relative;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  font-size:30px;
+  color: #444;
+}
+/* dr_msg */
+.dr_msg{
+  background: linear-gradient(to right,#2193b0 , #6dd5ed);
+  color: #444;
+  padding: 50px 0px;
+  text-align: center;
+}
+.dr_msg_t{
+  font-size:30px;
+  letter-spacing:2px;
+  margin-bottom:50px;
+}
+.email{
+  height:32px;
+  width:300px;
+  border:none;
+  border-radius:5px;
+  display:block;
+  margin: 20px auto;
+  text-align:left;
+  padding:10px;
+  font-size:16px;
+  
+}
+.txtarea{
+  height:150px;
+  width:600px;
+  border:none;
+  border-radius:5px;
+  display:block;
+  
+  text-align:left;
+  padding:10px;
+  font-size:16px;
+  margin: 20px auto;
+}
+@media screen and (max-width:620px){
+  .txtarea{
+    width:400px;
+  } 
+}
+@media screen and (max-width:420px){
+  .txtarea{
+    width:300px;
+  } 
+}
+.btn_ipt{
+  padding:10px 15px;
+  border:none;
+  border-radius:5px;
+  display:block;
+  cursor: pointer;
+  margin: 20px auto;
+  font-size:16px;
+  color: #fff;
+  background-color: #444;
+}
+.btn_ipt:hover{
+  color: #444;
+  background-color: #fff
+  ;
 }
